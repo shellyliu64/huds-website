@@ -1,1 +1,121 @@
-/* You can add global styles to this file, and also import other style files */
+/* Width and height general styles */
+.width-percent-50 {
+    width: 50%;
+}
+.width-percent-max {
+    width: 100%;
+}
+.width-percent-30 {
+    width: 30%;
+}
+.width-percent-80 {
+    width: 80%;
+}
+
+.height-percent-50 {
+    height: 50%;
+}
+.height-percent-max {
+    height: 100%;
+}
+.height-percent-30 {
+    height: 30%;
+}
+.height-percent-80 {
+    height: 80%;
+}
+
+/* Component-specific styles */
+
+.harvard-logo {
+    width: 80px;
+}
+
+/* Position styles */
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+/* Padding, border, and margin */
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-y-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-y-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.padding-x-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.padding-x-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.border-radius-25 {
+    border-radius: 25px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+/* Colors */
+
+.text-color-crimson {
+    color: #A51C30;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.text-color-black {
+    color: black;
+}
+
+.background-color-crimson {
+    background-color: #A51C30;
+}
+
+.background-color-white {
+    background-color: white;
+}
+
+.background-color-black {
+    background-color: black;
+}
+
+/* Fonts */
+
+.primary-font {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.font-bold {
+    font-weight:bold;
+}
+
+.font-light {
+    font-weight:lighter;
+}
+
