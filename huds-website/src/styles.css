@@ -45,6 +45,10 @@
     flex-direction: column;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 /* Padding, border, and margin */
 
 .padding-10 {
@@ -53,6 +57,9 @@
 
 .padding-y-10 {
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+.padding-bottom-10 {
     padding-bottom: 10px;
 }
 
@@ -108,7 +115,7 @@
 /* Fonts */
 
 .primary-font {
-    font-family: 'Franklin Gothic Medium';
+    font-family: Helvetica, sans-serif;
 }
 
 .font-bold {

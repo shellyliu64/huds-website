@@ -1,3 +1,9 @@
-<div>
-  <app-header style="padding:0%"></app-header>
+<div class="height-percent-max">
+  <app-header></app-header>
+  <div class="flex flex-direction-row height-percent-max">
+  <div>
+    <app-navigation-bar class="height-percent-max"></app-navigation-bar>
+  </div>
+  <div><router-outlet></router-outlet></div>
+</div>
 </div>
