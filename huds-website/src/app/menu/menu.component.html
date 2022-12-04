@@ -1,0 +1,18 @@
+<div style="margin-top: 50px; margin-left: 50px; margin-right: 50px">
+    <h1 style="font-size: 40px; margin-bottom: 30px;">This Week's Menu</h1>
+    <div style="display:flex; justify-content: space-between;">
+        <h1 class="text-color-crimson" style="margin-bottom: 30px;">{{ month }} {{ day }}, {{ year }}</h1>
+        <button mat-raised-button (click)="openDialog()">Create Nutrition Report</button>
+    </div>
+    <mat-tab-group animationDuration="0ms" style="width:1000px">
+        <mat-tab label="Breakfast">
+            <app-items></app-items>
+        </mat-tab>
+        <mat-tab label="Lunch">
+            <app-items></app-items>
+        </mat-tab>
+        <mat-tab label="Dinner">
+            <app-items></app-items>
+        </mat-tab>
+    </mat-tab-group>
+</div>
