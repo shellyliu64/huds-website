@@ -14,6 +14,11 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { ItemsComponent } from './menu/items/items.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
+import { FeedbackComponent } from './feedback/feedback.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
+
 
 
 @NgModule({
@@ -24,6 +29,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     WelcomeComponent,
     MenuComponent,
     ItemsComponent,
+    FeedbackComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +39,10 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatTabsModule,
     MatCheckboxModule,
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
