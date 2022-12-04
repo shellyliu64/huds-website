@@ -1,0 +1,50 @@
+<div style="margin: 40px;">
+    <h1 style="font-size: 40px;" class="text-color-crimson">HOW DID WE DO?</h1>
+    <p style="font-size: 20px;">Please offer comments and suggestions about your dining experience.</p>
+    <div style="width:100%;">
+    <div style="margin-top:10px;">
+        <p style="font-size: 15px;">Undergraduate House</p>
+        <mat-form-field appearance="fill">
+            <mat-select>
+              <mat-option value="leverett">Leverett</mat-option>
+              <mat-option value="lowell">Lowell</mat-option>
+              <mat-option value="Winthrop">Winthrop</mat-option>
+              <mat-option value="Mather">Mather</mat-option>
+              <mat-option value="Dunster">Dunster</mat-option>
+              <mat-option value="Eliot">Eliot</mat-option>
+              <mat-option value="Kirkland">Kirkland</mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div style="margin-top:10px;">
+        <p style="font-size: 15px;">Name</p>
+        <mat-form-field appearance="fill">
+            <input matInput #input>
+        </mat-form-field>
+    </div>
+    <div style="margin-top:10px;">
+        <p style="font-size: 15px;">Email</p>
+        <mat-form-field appearance="fill">
+            <input matInput #input>
+        </mat-form-field>
+    </div>
+    <div style="margin-top:10px;">
+        <p style="font-size: 15px;">Year</p>
+        <mat-form-field appearance="fill">
+            <mat-select>
+              <mat-option value="2026">2026</mat-option>
+              <mat-option value="2025">2025</mat-option>
+              <mat-option value="2024">2024</mat-option>
+              <mat-option value="2023">2023</mat-option>
+            </mat-select>
+          </mat-form-field>
+    </div>
+    <div style="margin-top:10px; width:100%">
+        <p style="font-size: 15px;">Your Comments</p>
+        <mat-form-field appearance="fill">
+            <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+        </mat-form-field>
+    </div>
+    <button mat-raised-button routerLink="/feedback" routerLinkActive="active" ariaCurrentWhenActive="page">Submit</button>
+</div>
+</div>
